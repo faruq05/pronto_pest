@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Helvetica';
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Helvetica';
+}
+
+p {
+    font-size: 18px;
+    line-height: 2;
+    font-family: 'Helvetica';
+    font-weight: 500;
+    color: var(--cs-para);
+}
+
+.cp-60 {
+    padding: 60px 0px;
+}
+
+:root {
+    --cs-para: #444444;
+    --cs-subbg: #e6e0cd;
+    --cs-bg: #dddddd;
+    --cs-title: #666666;
+    --cs-text: #333333;
+    --cs-orng: #e76e24;
+    --cs-white: #fff;
+}
+
+/* header */
+.header {
+    border-top: 3px solid var(--cs-orng);
+    padding-top: 10px;
+    border-bottom: 6px solid #888888;
+}
+
+.location {
+    display: flex;
+}
+
+.location ul {
+    margin-right: 20px;
+}
+
+.location ul a {}
+
+.location ul a li {
+    color: #1c3B84;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Helvetica';
+    font-weight: 400;
+}
+
+.location ul a li i {
+    margin-right: 7px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Helvetica';
+    color: var(--cs-white);
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Helvetica';
+}
+
+p {
+    font-size: 18px;
+    line-height: 2;
+    font-family: 'Helvetica';
+    font-weight: 500;
+    color: var(--cs-para);
+}
+
+:root {
+    --cs-para: #444444;
+    --cs-subbg: #e6e0cd;
+    --cs-bg: #dddddd;
+    --cs-title: #666666;
+    --cs-text: #333333;
+    --cs-orng: #e76e24;
+    --cs-white: #fff;
+    --cs-nav: #1c3B84;
+}
+
+/* header */
+.header {
+    border-top: 3px solid var(--cs-orng);
+    padding-top: 10px;
+}
+
+.location {
+    display: flex;
+}
+
+.location ul {
+    margin-right: 20px;
+}
+
+.location ul a {}
+
+.location ul a li {
+    color: var(--cs-nav);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Helvetica';
+    font-weight: 400;
+}
+
+.location ul a li i {
+    margin-right: 7px;
+}
+
+.navbar-brand img {
+    width: 80%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--cs-nav);
+    font-size: 18px;
+    font-family: 'Helvetica';
+    font-weight: 600;
+    border-right: 1px solid var(--cs-nav);
+    padding: 0px 15px;
+}
+
+.last_nav {
+    border: none !important;
+}
+
+/* hedaer ends */
+
+/* hero starts */
+.hero {
+    background-image: url(../images/where-to-check-hotel-room.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero .row {
+    min-height: 90vh;
+}
+
+.hero_content {
+    position: relative;
+    z-index: 10;
+}
+
+.hero_content h1 {
+    text-shadow: 2px 2px #000;
+}
+
+.hero_content i {
+    font-size: 50px;
+    color: var(--cs-white);
+    padding: 20px 0px;
+}
+
+.hero_content h2 {
+    color: var(--cs-white);
+    font-weight: 600;
+    text-shadow: 2px 2px #000;
+}
+
+.hero_form {
+
+    padding-top: 30px;
+
+    width: 70%;
+
+    margin: auto;
+}
+
+.hero_form form input {
+
+    margin-bottom: 10px;
+
+    border-radius: 0;
+
+    border: 1px solid var(--cs-orng);
+
+    border-bottom: 4px solid var(--cs-orng);
+}
+
+.hero_form form input[type='submit'] {
+    color: var(--cs-white);
+    margin: 0;
+    border: none;
+    background-color: #00a5df;
+    font-weight: 600;
+    width: auto;
+    margin: auto;
+}
+
+.services {
+    padding: 20px 0px;
+    width: 50%;
+    margin: auto;
+}
+
+.services label {
+    color: var(--cs-white);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.serv-opt {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.serv-opt label {
+    color: var(--cs-white);
+    font-size: 20px;
+}
+
+.serv-opt label input {
+    border: none;
+    margin: 0;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid var(--cs-orng);
+    border-bottom: 4px solid var(--cs-orng);
+    outline: 0;
+    box-shadow: none;
+}
