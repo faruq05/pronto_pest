@@ -35,6 +35,11 @@
         margin-bottom: 10px;
     }
 
+    .pest_opt {
+        justify-content: space-between !important;
+        align-items: baseline!important;
+    }
+
     .hero_form {
         width: 100%;
         margin: auto;
@@ -125,6 +130,10 @@
         bottom: 0;
         left: 0;
         z-index: -1;
+    }
+
+    .about_image img {
+        width: 100%;
     }
 
     .about,
@@ -232,6 +241,10 @@
 
     .serv-opt {
         flex-direction: column;
+    }
+
+    .about_image img {
+        width: 100%;
     }
 
     .cimex_image img {
