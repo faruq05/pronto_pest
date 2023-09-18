@@ -556,3 +556,9 @@ p {
 }
 
 .pg_link li a i {}
+
+.btn-close:focus {
+    outline: 0;
+    box-shadow: none;
+    opacity: 1;
+}
