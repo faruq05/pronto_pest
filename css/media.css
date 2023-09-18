@@ -138,7 +138,7 @@
 
     .about,
     .experience,
-    .inspect_content {
+    .inspect_content, .identify, .bugs{
         text-align: center;
     }
 
